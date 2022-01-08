@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <form>
+     <label for="uname">username</label>
+     <input type="text"id="uname" name="uname" placeholder="enter username" 
+     value="Info"><br><br>
+     <label for="pwd">Password</label>
+     <input type="password" name="pwd"><br><br>
+     <label for="email">email</label>
+     <input type="email" name="email"><br><br>
+     <label for="date">date</label>
+     <input type="date" name="date"><br><br>
+     <label for="number">number</label>
+     <input type="number" name="number"><br><br>
+     <label for="color">color</label>
+     <input type="color" name="color"><br><br>
+     <label for="gender">Gender</label>
+     <input type="radio" name="gen" checked value="m">Male
+     <input type="radio" name="gen" value="f">Female
+     <input type="radio" name="gen" value="o">other<br><br>
+     <label for="hobbies">Hobbies</label>
+     <input type="checkbox" name="cricket" value="circket">Cricket
+     <input type="checkbox" name="dance" value="dance">dance
+     <br><br>
+     <label for="address">Address</label>
+    <textarea rows="5" cols="30"></textarea><br><br>
+    <label for="city">City</label>
+    <select name="city">
+        <option selected disabled>select city</option>
+        <optgroup label="Maharashtra">
+        <option value="Pune">Pune</option>
+        <option>Mumbai</option>
+        <option>Nagpur</option>
+        </optgroup>
+        <optgroup label="Rajasthan">
+        <option>Jaipur</option>
+        <option>Udaipur</option></optgroup>
+        <optgroup label="Gujrat">
+        <option>Baroda</option>
+        <option>Ahmedabad</option>
+    </optgroup>
+    </select><br><br>
+     <input type="submit" name="submit" value="login">
+    
+     <button type="submit">Login</button>
+    </form>
+</body>
+</html>
